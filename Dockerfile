@@ -11,4 +11,4 @@ COPY . .
 RUN pip install flask
 
 # Define the command to run the app
-CMD ["python", "hello.py"]
+CMD ["python", "tests/test_apps/helloworld/hello.py"]
